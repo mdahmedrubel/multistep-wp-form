@@ -1,0 +1,145 @@
+.thumb-part {
+	position: relative;
+}
+.thumb-part img {
+	width: 100%;
+	border-radius: 20px;
+}
+.thumb-part span {
+	display: inline-block;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.thumb-part .content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60%;
+	transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 575px) {
+	.thumb-part .content {
+		width: 100%;
+	}
+	.thumb-part span {
+		margin-bottom: 10px;
+	}
+	.thumb-part .content h4 {
+		font-size: 16px;
+	}
+}
+.thumb-part .content h4 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 700;
+}
+.thumb-part .content p {
+	margin-bottom: 0;
+	color: #fff;
+}
+input[type="date"] {
+	text-align: center;
+	background: #2e4c6c;
+	color: #fff;
+	border: none;
+	padding: 5px 15px;
+	margin-bottom: 20px;
+}
+.formoption h6 {
+	font-weight: 700;
+}
+.formoption select,
+.formoption select[name="starttime"],
+.formoption select[name="endtime"] {
+	padding: 10px;
+	/* width: 100%; */
+	font-size: 17px;
+	font-family: Raleway;
+	border: 1px solid #aaaaaa;
+	outline: none;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+	background: #2e4c6c;
+	color: #fff;
+}
+.tab {
+	display: none;
+}
+.tab.active {
+	display: block;
+}
+#submit {
+	display: none;
+}
+/* thank you table */
+.thank-you-page table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+}
+.thank-you-page th,
+.thank-you-page td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+.thank-you-page th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+.thank-you-page tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+.back-to-home {
+	border: 1px solid blue;
+	padding: 10px 20px;
+}
+.csf-message {
+	width: 100%;
+	background-color: #10367c;
+	padding: 20px;
+	border-radius: 20px;
+	color: white;
+}
+h3.csf-heading {
+    color: #f9c349;
+    margin-bottom: 0;
+}
+.csf-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.csf-trip-details.col-left {
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #10367c;;
+    margin: 20px 0;
+    color: white;
+}
+/* single template styes */
+.csf-travel-single{
+    width: 100%;
+    margin: 40px 0;
+}
+.entry-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.entry-content th, .entry-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.entry-content th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.entry-content tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
